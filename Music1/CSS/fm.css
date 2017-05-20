@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#ct{
+  position: relative;
+  width: 970px;
+  height: 71px;
+  border: 1px solid;
+  margin: 200px;
+  display: inline-block;
+  box-shadow: 1px 1px 50px black;
+}
+#ct{
+   background-image:-webkit-linear-gradient(to right, #9d9d9d, #984b4b, #424200);
+   background-image:linear-gradient(to right, #9d9d9d, #984b4b, #424200);
+}
+
+.songphoto{
+  position: absolute;
+  width: 100px;
+  height: 71px;
+  border-right: 1px solid;
+}
+.songname{
+  position: absolute;
+  left: 101px;
+  width: 70px;
+  height: 71px;
+}
+
+
+ul{
+  position: absolute;
+  left: 172px;
+  top: -1px;
+  width: 250px;
+  height: 100%;
+  border: 1px solid;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.prep{
+  position: absolute;
+  left: 20px;
+  top: 11px;
+}
+.porp{
+  position: absolute;
+  left: 70px;
+  top: 11px;
+}
+.next{
+  position: absolute;
+  left: 120px;
+  top: 11px;
+}
+.loop{
+  position: absolute;
+  left: 180px;
+  top: 13px;
+}
+.pause1{
+  position: absolute;
+  left: 70px;
+  top: 11px;
+}
+.show{
+  display: none;
+}
+
+
+.progress{
+  position: absolute;
+  left: 423px;
+  height: 45px;
+  width: 350px;
+  border-right: 1px solid;
+  text-align: center;
+  padding: 25px 0 0;
+}
+.real-volume-line{
+  position: absolute;
+  top: 33px;
+  left: 30px;
+  width: 300px;
+  height: 4px;
+  background: #5b5b5b;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: width 1s;
+}
+
+.nowtime{
+  position: absolute;
+  left: 450px;
+  top: 38px;
+  border: 1px solid;
+  width: 60px;
+  height: 20px;
+}
+.endtime{
+  position: absolute;
+  left: 775px;
+  padding: 25px 0;
+  width: 60px;
+  height: 20px;
+  border-right: 1px solid;
+}
+
+
+.singlyrics{
+  position: absolute;
+  left: 850px;
+  margin-top: 13px;
+  font-size: 150px;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.5
+}
+.lyrics{
+ position: absolute;
+ top: -65px;
+ left: -800px;
+ width: 900px;
+ height: 50px;
+ background-color: #5b5b5b;
+ box-shadow: 1px 1px 50px black;
+}
+
+
+
+.volume{
+ position: absolute;
+ left: 895px;
+ top: 1px;
+ padding: 15px;
+ transition: 0.5s;
+ opacity: 0.5;
+ cursor: pointer;
+ transition: 0.5s;
+}
+.volpro{
+ position: absolute;
+ left: 5px;
+ top: -103px;
+ width: 50px;
+ height: 100px;
+ background-color: #E0E0E0;
+ opacity: 1;
+ box-shadow: 1px 1px 50px black;
+}
